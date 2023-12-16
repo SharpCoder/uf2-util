@@ -1,7 +1,17 @@
 [package]
 name = "uf2-util"
+description = "A utility for generating an rp2040-compatible uf2 file"
+repository = "https://github.com/SharpCoder/uf2-util"
+license = "MIT"
+readme = "README.md"
+keywords = ["rp2040", "uf2", "pico"]
+authors = ["Josh Cole"]
+categories = ["command-line-utilities"]
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "uf2-util"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
